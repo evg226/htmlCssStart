@@ -81,12 +81,11 @@ p{
 
 
 .services-heading {
-    
     font-size: 36px;
     font-weight: 300;
     line-height: 46px;
     letter-spacing: 0.05em;
- 
+    text-align: center;
 }
 
 .footer-heading{
@@ -106,13 +105,25 @@ p{
 
 }
 
+.products{
+    padding-top:64px;
+
+}
 .product-heading{
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.05em;
-
     color: #1F3F68;
+    margin-bottom:14px;
+}
+
+.product-link{
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
 }
 
 .contacts-item-heading {
@@ -183,11 +194,74 @@ p{
 
 .product-box{
     width: 359px;
+    box-sizing: border-box;
+    padding:44px 32px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  
 }
+
+.product-img{
+    align-self: center;
+    margin-bottom: 51px;
+}
+
 
 .products-group{
     display: flex;
     justify-content:space-around;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.projects-text{
+    width:75%;
+    margin: 32px auto 64px;
+    color: #222222;
+    text-align: center;
+    opacity: 1;
+}
+
+
+.project-item{
+    position: relative;
+    flex-grow: 1;
+    
+}
+
+.project-item-margin{
+    margin-right: 32px;
+}
+
+.project-double{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    
+
+}
+
+.projects{
+    padding-bottom: 112px;
+}
+
+.project-img{
+ width:100%;
+}
+
+.project-text{
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 1;
+    top:64px;
+    right:64px;
 }
 
 .footer-banner-text{
