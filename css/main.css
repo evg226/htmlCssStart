@@ -391,7 +391,28 @@ p{
         top:20px;
         left:20px;
     }
-    
+
+    .footer-banner-text{
+        width:340px;
+    }
+
+    .footer-button{
+        padding: 5px 8px;
+    }
+
+    .footer-contacts{
+        flex-direction: column;
+    }
+
+    .footer{
+        padding-top: 47px;
+    }
+
+    .footer-banner{
+        padding: 0 80px 64px;
+
+    }
+}
 
 @media(max-width:667px){
     .nav-bar{
@@ -424,4 +445,69 @@ p{
     .top-button{
         padding: 0 8px;
     }
+
+    .products{
+        padding-top:48px;
+        
+    }
+
+      .services-heading{
+        font-size: 24px;
+    }
+
+     .product-box{
+        width:100%;
+    }
+    .project-item-margin {
+        margin-right: 0;
+    }
+    .project-double{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .project-item{
+        margin-top:16px;
+    }
+
+    .project-text-top{
+        top:16px;
+        right:16px;
+        font-size: 16px;
+    }
+    
+    .project-text-double{
+        top:16px;
+        font-size: 16px;
+        left:16px;
+    }
+    .footer{
+       padding-top: 16px;
+       padding-bottom: 32px;
+    }
+    .footer-banner{
+        flex-direction: column;
+        padding: 0 0 48px;
+    }
+
+    .footer-banner-text{
+        margin-bottom: 40px;
+        width:100%;
+        text-align: center;
+    }
+
+    .footer-heading{
+        font-size:24px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-contacts{
+        margin-top: 32px;
+    }
+
+    .copyright{
+        margin-top: 37px;
+        text-align: center;
+    }
+
 }
