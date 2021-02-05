@@ -8,12 +8,12 @@ body{
 }
 
 .container {
-    width:1140px;
+    max-width:1140px;
     margin: 0 auto;
 }
 
 .wrapper-top{
-    height: 768px;
+    
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
@@ -27,6 +27,7 @@ p{
 }
 
 .top-content{
+    min-height: 768px;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -55,6 +56,7 @@ p{
     background-image: url(../img/banner.png);
     background-repeat: no-repeat;
     background-position: right center;
+    background-size: 44%;
 }
 
 .index-banner-text-p{
@@ -249,7 +251,7 @@ p{
 }
 
 .project-text{
-    font-size: 32px;
+    
     line-height: 46px;
     text-align: right;
     letter-spacing: 0.05em;
@@ -261,10 +263,12 @@ p{
 .project-text-top{
     top:64px;
     right:64px;
+    font-size: 32px;
 }
 
 .project-text-double{
     top:32px;
+    font-size: 28px;
     left:32px;
 }
 
@@ -362,3 +366,62 @@ p{
     
 }
 
+
+@media(max-width:1024px){
+    .container{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .index-banner-text{
+        background-position: right 280px;
+    }
+
+    .products-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 95px;
+    }
+
+    .product-box{
+        margin-bottom: 32px;
+    }
+
+    .project-text-double{
+        top:20px;
+        left:20px;
+    }
+    
+
+@media(max-width:667px){
+    .nav-bar{
+        padding-top: 24px;
+    }
+    
+    .top-content{
+        min-height: 376px;
+        padding-bottom: 41px;
+        box-sizing:border-box;
+    }
+    .index-banner-text{
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+    }
+    .index-banner-heading {
+        text-align: center;
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 12px;
+        width:100%
+    }
+    .index-banner-text-p{
+        width: 100%;
+        text-align: center;
+    }
+    .top-button{
+        padding: 0 8px;
+    }
+}
