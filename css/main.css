@@ -39,6 +39,21 @@ p {
   height: 100%;
 }
 
+.see-landing {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #5A98D0;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.see-landing:hover {
+  background: #EB5757;
+}
+
 .index-banner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -531,6 +546,11 @@ p {
 }
 
 @media (max-width: 1024px) {
+  .container {
+    padding: 0 16px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
   .index-banner-text {
     background-position: right 280px;
   }
@@ -600,16 +620,10 @@ p {
   }
   .find-us {
     height: 392px;
-    margin: 0;
   }
 }
 
 @media (max-width: 667px) {
-  .container {
-    padding: 8px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
   .nav-bar {
     padding-top: 24px;
   }
@@ -739,6 +753,7 @@ p {
   }
   .contacts-content .send-us .send-us-form-btn {
     margin-top: 46px;
+    height: 46px;
   }
   .find-us {
     height: 350px;

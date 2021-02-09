@@ -35,6 +35,24 @@ p{
     height: 100%;
 }
 
+.see-landing{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background: #5A98D0;
+    padding:10px 10px;
+    text-decoration: none;
+    // display:inline-block;
+    
+}
+
+.see-landing:hover{
+    background: #EB5757;
+
+}
+
 .index-banner{
     display: flex;
     justify-content: space-between;
@@ -347,6 +365,7 @@ p{
                 letter-spacing: 0.04em;
                 color: rgba(255, 255, 255, 0.6);
                 text-align: center;
+                // padding:0 16px;
             }
         }
     }
@@ -494,6 +513,12 @@ p{
 
 @media(max-width:1024px){
     
+    .container{
+        padding:0 16px;
+        box-sizing: border-box;
+    }
+
+
     .index-banner-text{
         background-position: right 280px;
     }
@@ -568,10 +593,9 @@ p{
 
 .find-us{
     height: 392px;
-    margin: 0;
-    
-
+    // margin: 0;
 }
+
 
 
 
@@ -579,11 +603,7 @@ p{
 }
 
 @media(max-width:667px){
-    .container{
-        padding:8px;
-        box-sizing: border-box;
-    }
-
+    
     .nav-bar{
         padding-top: 24px;
     }
@@ -726,6 +746,8 @@ p{
             }
             .send-us-form-btn{
                 margin-top: 46px;
+                height: 46px;
+
             }
         }
     }
