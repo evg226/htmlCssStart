@@ -16,6 +16,7 @@ body{
 .wrapper-top{
     
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    min-width:320px;
 }
 
 p{
@@ -225,6 +226,7 @@ p{
     color:#ffffff;
     margin-top:96px;
     padding:65px 0;
+    min-width:320px;
 
 }
 
@@ -310,7 +312,7 @@ p{
 
 // шапка
 .wrapper-top-contacts{    
-    
+    min-width:320px;
     .top-contacts{
         margin-bottom: 48px;
     }
@@ -491,10 +493,7 @@ p{
 
 
 @media(max-width:1024px){
-    .container{
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+    
     .index-banner-text{
         background-position: right 280px;
     }
@@ -536,18 +535,20 @@ p{
 
     }
 
+
+    .wrapper-top-contacts{    
+        
+        .contacts-banner-wide{
+            margin-bottom: 0;
+        }
+    }
+
     // контент
 
 .contacts-content{
-    // display: flex;
-//    justify-content: space-between; 
    flex-direction: column;
     align-items: center;
-
-    // height: 100% ;
-    // margin-bottom: 72px;
-
-    .contacts {
+  .contacts {
         padding-bottom:64px;
         .contacts-item{
            .contacts-item-phone-li{
@@ -578,6 +579,11 @@ p{
 }
 
 @media(max-width:667px){
+    .container{
+        padding:8px;
+        box-sizing: border-box;
+    }
+
     .nav-bar{
         padding-top: 24px;
     }
@@ -673,9 +679,72 @@ p{
         text-align: center;
     }
 
+    .wrapper-top-contacts{    
+        
+        .contacts-banner-wide{
+            
+            .contacts-banner-text{
+                padding-top:32px;
 
+                 .contacts-banner-heading{
+                    font-size: 24px;
+                    margin-bottom: 8px;  
+                }
+                .contacts-banner-text-p{
+                    font-size: 16px;
+                }
+            }
+        }
+        
+    }
 
+       // контент
+
+    .contacts-content{
+        margin-bottom: 32px;
+        .contacts {
+            padding-bottom:32px;
+            //  max-height:620px;  
+            .contacts-item{
+                .contacts-item-phone-li{
+                    margin-bottom: 32px;
+                }
+            }
+            .address-item{
+                margin-top:64px;
+                margin-bottom:32px;
+            }
+        }
+        .send-us{
+            
+            width:97%;
+
+            padding:32px;
+            
+            .send-us-heading{
+                margin-bottom: 32px;
+            }
+            .send-us-form-btn{
+                margin-top: 46px;
+            }
+        }
+    }
     
+    
+
+    .find-us{
+        height: 350px;
+        margin: 0;
+    
+    }
+
+    .footer{
+        margin-top: 32px;
+    }
+
+
+
+
 }
 
 

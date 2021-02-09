@@ -16,6 +16,7 @@ body {
 .wrapper-top {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(8.84%, #EBF3FB), color-stop(31.12%, rgba(152, 195, 232, 0)));
   background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  min-width: 320px;
 }
 
 p {
@@ -245,6 +246,7 @@ p {
   color: #ffffff;
   margin-top: 96px;
   padding: 65px 0;
+  min-width: 320px;
 }
 
 .footer-banner {
@@ -329,6 +331,10 @@ p {
   letter-spacing: 0.05em;
   color: #ffffff;
   margin-top: 64px;
+}
+
+.wrapper-top-contacts {
+  min-width: 320px;
 }
 
 .wrapper-top-contacts .top-contacts {
@@ -525,10 +531,6 @@ p {
 }
 
 @media (max-width: 1024px) {
-  .container {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
   .index-banner-text {
     background-position: right 280px;
   }
@@ -570,6 +572,9 @@ p {
   .footer-banner {
     padding: 0 80px 64px;
   }
+  .wrapper-top-contacts .contacts-banner-wide {
+    margin-bottom: 0;
+  }
   .contacts-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -600,6 +605,11 @@ p {
 }
 
 @media (max-width: 667px) {
+  .container {
+    padding: 8px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
   .nav-bar {
     padding-top: 24px;
   }
@@ -696,6 +706,46 @@ p {
   .copyright {
     margin-top: 37px;
     text-align: center;
+  }
+  .wrapper-top-contacts .contacts-banner-wide .contacts-banner-text {
+    padding-top: 32px;
+  }
+  .wrapper-top-contacts .contacts-banner-wide .contacts-banner-text .contacts-banner-heading {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .wrapper-top-contacts .contacts-banner-wide .contacts-banner-text .contacts-banner-text-p {
+    font-size: 16px;
+  }
+  .contacts-content {
+    margin-bottom: 32px;
+  }
+  .contacts-content .contacts {
+    padding-bottom: 32px;
+  }
+  .contacts-content .contacts .contacts-item .contacts-item-phone-li {
+    margin-bottom: 32px;
+  }
+  .contacts-content .contacts .address-item {
+    margin-top: 64px;
+    margin-bottom: 32px;
+  }
+  .contacts-content .send-us {
+    width: 97%;
+    padding: 32px;
+  }
+  .contacts-content .send-us .send-us-heading {
+    margin-bottom: 32px;
+  }
+  .contacts-content .send-us .send-us-form-btn {
+    margin-top: 46px;
+  }
+  .find-us {
+    height: 350px;
+    margin: 0;
+  }
+  .footer {
+    margin-top: 32px;
   }
 }
 /*# sourceMappingURL=main.css.map */
