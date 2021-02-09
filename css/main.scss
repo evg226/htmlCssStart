@@ -305,150 +305,6 @@ p{
 }
 
 
-@media(max-width:1024px){
-    .container{
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-    .index-banner-text{
-        background-position: right 280px;
-    }
-
-    .products-group{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 95px;
-    }
-
-    .product-box{
-        margin-bottom: 32px;
-    }
-
-    .project-text-double{
-        top:20px;
-        left:20px;
-    }
-
-    .footer-banner-text{
-        width:340px;
-    }
-
-    .footer-button{
-        padding: 5px 8px;
-    }
-
-    .footer-contacts{
-        flex-direction: column;
-    }
-
-    .footer{
-        padding-top: 47px;
-    }
-
-    .footer-banner{
-        padding: 0 80px 64px;
-
-    }
-}
-
-@media(max-width:667px){
-    .nav-bar{
-        padding-top: 24px;
-    }
-    
-    .top-content{
-        min-height: 376px;
-        padding-bottom: 41px;
-        box-sizing:border-box;
-    }
-    .index-banner-text{
-        padding-top: 36px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-image: none;
-    }
-    .index-banner-heading {
-        text-align: center;
-        font-size: 32px;
-        line-height: 37px;
-        margin-bottom: 12px;
-        width:100%
-    }
-    .index-banner-text-p{
-        width: 100%;
-        text-align: center;
-    }
-    .top-button{
-        padding: 0 8px;
-    }
-
-    .products{
-        padding-top:48px;
-        
-    }
-
-      .services-heading{
-        font-size: 24px;
-    }
-
-     .product-box{
-        width:100%;
-    }
-    .project-item-margin {
-        margin-right: 0;
-    }
-    .project-double{
-        flex-direction: column;
-        margin-top: 0;
-    }
-    .project-item{
-        margin-top:16px;
-    }
-
-    .project-text-top{
-        top:16px;
-        right:16px;
-        font-size: 16px;
-    }
-    
-    .project-text-double{
-        top:16px;
-        font-size: 16px;
-        left:16px;
-    }
-    .footer{
-       padding-top: 16px;
-       padding-bottom: 32px;
-    }
-    .footer-banner{
-        flex-direction: column;
-        padding: 0 0 48px;
-    }
-
-    .footer-banner-text{
-        margin-bottom: 40px;
-        width:100%;
-        text-align: center;
-    }
-
-    .footer-heading{
-        font-size:24px;
-        text-align: center;
-        width: 100%;
-    }
-
-    .footer-contacts{
-        margin-top: 32px;
-    }
-
-    .copyright{
-        margin-top: 37px;
-        text-align: center;
-    }
-
-}
 
 // страница контакты
 
@@ -501,7 +357,7 @@ p{
     display: flex;
     
     justify-content: space-between;
-    max-height: 800px ;
+    // max-height: 800px ;
 
     margin-bottom: 72px;
     .contacts {
@@ -514,6 +370,7 @@ p{
 
         .contacts-item{
             list-style-position: inside;
+
             .contacts-item-heading {
                 font-weight: 500;
                 font-size: 20px;
@@ -623,6 +480,202 @@ p{
 
 .find-us{
     height: 480px;
+    max-width:1140px;
+    margin: 0 auto;
+    min-width:320px;
+}
+
+
+
+
+
+
+@media(max-width:1024px){
+    .container{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .index-banner-text{
+        background-position: right 280px;
+    }
+
+    .products-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 95px;
+    }
+
+    .product-box{
+        margin-bottom: 32px;
+    }
+
+    .project-text-double{
+        top:20px;
+        left:20px;
+    }
+
+    .footer-banner-text{
+        width:340px;
+    }
+
+    .footer-button{
+        padding: 5px 8px;
+    }
+
+    .footer-contacts{
+        flex-direction: column;
+    }
+
+    .footer{
+        padding-top: 47px;
+    }
+
+    .footer-banner{
+        padding: 0 80px 64px;
+
+    }
+
+    // контент
+
+.contacts-content{
+    // display: flex;
+//    justify-content: space-between; 
+   flex-direction: column;
+    align-items: center;
+
+    // height: 100% ;
+    // margin-bottom: 72px;
+
+    .contacts {
+        padding-bottom:64px;
+        .contacts-item{
+           .contacts-item-phone-li{
+                list-style-image: url(../img/phone_icon.svg);
+                margin-bottom: 40px;
+            }
+        }
+        .address-item{
+            margin-top:64px;
+            margin-bottom:40px;
+        }
+    }
+    .send-us{
+        width:520px;
+      }
+}
+
+.find-us{
+    height: 392px;
+    margin: 0;
+    
+
+}
+
+
+
+
+}
+
+@media(max-width:667px){
+    .nav-bar{
+        padding-top: 24px;
+    }
+    
+    .top-content{
+        min-height: 376px;
+        padding-bottom: 41px;
+        box-sizing:border-box;
+    }
+    .index-banner-text{
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+    }
+    .index-banner-heading {
+        text-align: center;
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 12px;
+        width:100%
+    }
+    .index-banner-text-p{
+        width: 100%;
+        text-align: center;
+    }
+    .top-button{
+        padding: 0 8px;
+    }
+
+    .products{
+        padding-top:48px;
+        
+    }
+
+      .services-heading{
+        font-size: 24px;
+    }
+
+     .product-box{
+        width:100%;
+    }
+    .project-item-margin {
+        margin-right: 0;
+    }
+    .project-double{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .project-item{
+        margin-top:16px;
+    }
+
+    .project-text-top{
+        top:16px;
+        right:16px;
+        font-size: 16px;
+    }
+    
+    .project-text-double{
+        top:16px;
+        font-size: 16px;
+        left:16px;
+    }
+    .footer{
+       padding-top: 16px;
+       padding-bottom: 32px;
+    }
+    .footer-banner{
+        flex-direction: column;
+        padding: 0 0 48px;
+    }
+
+    .footer-banner-text{
+        margin-bottom: 40px;
+        width:100%;
+        text-align: center;
+    }
+
+    .footer-heading{
+        font-size:24px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-contacts{
+        margin-top: 32px;
+    }
+
+    .copyright{
+        margin-top: 37px;
+        text-align: center;
+    }
+
+
+
+    
 }
 
 
