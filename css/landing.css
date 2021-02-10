@@ -1,0 +1,214 @@
+.service__card-group{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+
+.service__card{
+    /* flex-grow: 1; */
+    min-width:25rem;
+    max-width: 48%;
+    position: relative;
+    border-radius: 1rem;
+    background-color: beige;
+}
+
+.card__img{
+    max-width: 33%;
+    margin: 2rem auto;
+}
+
+.why__card-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: flex-start; */
+
+}
+
+.why__card{
+    /* flex-grow: 1; */
+    width: 33%;
+    /* max-width: 33%; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    border:none;
+    background: transparent;
+}
+
+.why__card-img{
+    width: 60%;
+    margin: 1rem auto;
+    height:60%;
+    background: white;
+    border-radius: 50%;
+    border: 10px solid white;
+    padding: 10px;
+}
+
+.why__card-text{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.profit__card-group{
+    display:flex;
+    justify-content: space-between;
+}
+
+.profit__card{
+    /* flex-grow: 1; */
+    min-width:25rem;
+    max-width: 48%;
+    background-color: aliceblue;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image_callme{
+    flex-grow: 1;
+    max-width: 40rem;
+}
+
+.input_containter{
+    flex-grow:1;
+    max-width: 18rem;
+}
+
+.btn-callme{
+    width:100%;
+    /* background: red;
+    color: #ffffff;
+    border-color: hotpink; */
+}
+
+.btn-font{
+    font-size: 1.2rem;
+}
+
+
+.footer{
+    background: gainsboro;
+ 
+}
+.footer_container{
+    height: 10rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:1.2rem;
+}
+
+.brand{
+    color:#000000;
+    font-size:1.5rem;
+    font-weight: 500;
+
+}
+
+.navbar-text {
+    margin-right:2rem;
+}
+
+p{
+    font-size:0.9rem;
+}
+
+.banner-heading{
+    font-size:2rem;
+}
+
+.banner-text{
+    max-width: 40%;
+}
+
+.banner-image {
+    flex-grow: 1;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.banner-wrapper{
+    background:cornsilk;
+    padding-top: 10rem;
+}
+
+.servises-wrapper{
+    /* margin-top:1rem; */
+    
+    background: url(../img-land/services_back.png);
+}
+
+.heading-h2{
+    padding-top: 5rem;
+    padding-bottom:3rem;
+    text-align: center ;
+    color:white;
+    font-size: 3rem;
+     
+}
+
+.heading-service-card{
+    position:absolute;
+    right: 7rem;
+    top:2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    width:5rem;
+    text-align: right;
+}
+
+.heading-service-card2{
+    right: 5rem;
+    width:6rem;
+    text-align: left;
+    
+}
+
+.services-card-heading-h3{
+    font-size: 1.1rem;
+    font-style: italic;
+    
+
+}
+
+.wrapper-why{
+    background: url(../img-land/why_back.jpg);
+    padding-bottom: 4rem;
+}
+
+.heading-why{
+    color:darkblue;
+}
+
+.wrapper-profit{
+    background: url(../img-land/your_profits_back.png);
+    padding-bottom: 4rem;
+}
+
+.wrapper-contacts{
+    background: blanchedalmond;
+    padding-top:4rem;
+}
+
+.navbar-link-user:active{
+    color:white;
+}
+
+
+
+.navbar-bg{
+    background-color:lightcoral;
+}
